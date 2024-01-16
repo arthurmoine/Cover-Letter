@@ -1,0 +1,79 @@
+Body {
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-family: "lora";
+}
+#page {
+  width: 700px;
+  margin: 40px auto;
+}
+h1 {
+  color: rgb(129, 148, 224);
+  font-family: "roboto";
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+}
+
+h2 {
+  color: rgb(59, 78, 122);
+  font-family: "Roboto";
+  text-decoration: underline;
+  font-size: 18px;
+}
+
+h3 {
+  color: rgb(57, 110, 51);
+  text-decoration: underline;
+}
+
+p {
+  color: black;
+  font-family: "Roboto";
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+img {
+  width: 100px;
+  border-radius: 50%;
+  box-shadow: 3px 3px 3px darkgrey;
+  position: center;
+}
+#image {
+  margin: 10px auto;
+  width: 150px;
+}
+
+div {
+  border: 4px;
+  margin: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.principal {
+  border: 4px;
+  background-color: floralwhite;
+  margin: 10px;
+  box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.1);
+}
+
+#title {
+  text-align: center;
+}
+
+/*mise en page non texte*/
+
+@media (max-width: 700px) {
+  #page {
+    width: auto;
+    margin: 5px auto;
+  }
+}
